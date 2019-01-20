@@ -204,13 +204,13 @@ function userBetSend(aList, amount, callBack) {
 	});
 }
 
-function getProfitWinRate() {
-	contract.getMaxPrizeRate().call().then(function(r) {
+function getProfitWinRate() {profit_WinRate = 7;
+	/*contract.getMaxPrizeRate().call().then(function(r) {
 		profit_WinRate = r;
 	    //console.log("getMaxPrizeRate: "+r);
 	}).catch(function(e) {
 	    //console.log("getMaxPrizeRate: "+e);
-	});
+	});*/
 }
 
 function getGameMinBet() {
